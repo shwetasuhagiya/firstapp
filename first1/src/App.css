@@ -1,0 +1,300 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.t1{
+  color: white;
+}
+.icon{
+    color: orangered;
+}
+.img1{
+    width: 140px;
+    height: 50px;
+}
+ul{
+  list-style: none;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  padding: 20px 0;
+}
+li{
+  padding-left: 20px;
+}
+.drop{
+  border: 1px black solid;
+}
+.img2{
+  height: 550px;
+  width: 100%;
+  position: relative;
+}
+.carousel-control-next{
+    display: none;
+}
+.shop , .icon1{
+  font-size: 18px;
+}
+.f1{
+  position: absolute;
+  top: -1100%;
+  left: -10%;
+  font-size: 45px;
+  font-weight: 500;
+}
+.f2{
+  position: absolute;
+  top: -900%;
+  left: -10%;
+  font-size: 65px;
+  font-weight: 500;
+  background-color: orange;
+}
+.f3{
+  position: absolute;
+  top: -620%;
+  left: -10%;
+  font-size: 70px;
+  font-weight: 600;
+ 
+}
+.f4{
+  position: absolute;
+  top: -580%;
+  left: -0%;
+  font-size: 25px;
+  width: 100px;
+  margin-left: 60px;
+}
+.f5{
+  position: absolute;
+  top: -280%;
+  left: -10%;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: orange;
+  color: white;
+}
+.f6{
+  position: absolute;
+  top: -280%;
+  left: -0%;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-left: 60px;
+}
+.f6:hover{
+  background-color: orange;
+  color: white;
+}
+.heading{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.box{
+  background-color: gainsboro;
+  height: 130px;
+  border-radius: 5px;
+}
+
+.contain{
+  padding-left: 30px;
+}
+.containe{
+  padding-top: 30px;
+}
+.box1{
+  background-color: gainsboro;
+  height: 130px;
+  border-radius: 5px;
+}
+.s1 , .s5{
+  padding-left: 10px;
+  padding-top: 30px;
+}
+.img3 , .img5{
+  padding-top: 15px;
+  margin-left: 50px;
+  transform: scale(1);
+  transition: .3s ease-in-out;
+	
+}
+.img3:hover{
+  margin-left: 40px;
+}
+.img5:hover{
+  margin-left: 40px;
+}
+.img4{
+  padding-top: 15px;
+  margin-left: 120%;
+  transform: scale(1);
+  transition: .3s ease-in-out;
+}
+.img4:hover{
+  margin-left: 100%;
+}
+.s3{
+  padding-left: 35px;
+  padding-top: 30px;
+}
+.s4{
+  padding-left: 30px;
+}
+.img6{
+  width: 320px;
+  height: 300px;
+  
+}
+.img7{
+  width: 630px;
+  height: 300px;
+}
+.s7{
+  padding: 100px 20px;
+}
+.img8{
+  width: 690px;
+  height:350px;
+}
+.img9{
+  width: 668px;
+  height:350px;
+}
+.f7{
+  position: relative;
+}
+.box2 ,.box3{
+    width: 500px;
+    height: 300px;
+    background-color: black;
+    opacity: 0.9;
+    border-radius: 5px;
+    position: absolute;
+    top: 7%;
+    left: 32%;   
+}
+.box3{
+    top: 15%;
+    left: 2%;
+    height: 370px;
+}
+.f8 , .l7{
+  position: absolute;
+  top: 20%;
+  left: 42%;
+  color: white;
+  font-size: 20px;
+}
+.l7{
+  left: 7%;
+}
+.f9 ,.f11 ,.l4 {
+  position: absolute;
+  top: 30%;
+  left: 38%;
+  color: white;
+  font-size: 45px;
+}
+.f11 {
+    top: 48%;
+    left: 44%;
+    color: orange;
+}
+.l4,.l5{
+  left: 7%;
+}
+.l5{
+  color: white;
+  position: absolute;
+  top: 50%;
+  width: 400px;
+}
+.f10 , .l6{
+  position: absolute;
+  top: 70%;
+  left: 44%;
+  color: white;
+  padding: 10px 20px;
+  border: 1px white solid;
+  background-color: black;
+  border-radius: 5px;
+}
+.l6{
+  left: 7%;
+}
+.l1{
+  padding-top: 50px;
+  font-size: 30px;
+  padding-left: 40px;
+}
+.img10 {
+  padding-top: 20px;
+  height: 270px;
+  width: 260px;
+}
+.l2{
+  text-align: center;
+}
+.l3{
+  text-align: center;
+  padding-bottom: 20px;
+  font-weight: 700;
+}
+.img11{
+  width: 100%;
+  height: 500px;
+}
+.img11:last-child{
+  height: 550px;
+}
+.b1{
+  position: relative;
+}
+.b2{
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  font-size: 30px;
+}
+.b3{
+  position: absolute;
+  top: 30%;
+  left: 10px;
+}
+.img12 {
+  width: 420px;
+  height: 250px;
+ 
+}
+.img13{
+  width: 520px;
+  height: 250px;
+  padding-left: 40%;
+  
+}
+.img14{
+  width: 600px;
+  height: 250px;
+  padding-left: 70%;
+  
+}
+.b4{
+  text-align: center;
+}
+.b5{
+    width: 370px;
+}
+.img15{
+  padding: 70px 10px;
+  width: 170px;
+}
+.b4{
+  border-top: 1px grey solid;
+}
+
